@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Frinedship Calculator"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/friends"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Currency Convertor"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/money"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Temperature Convertor"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/thermostate"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="BMI Calculator"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/people"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Length Converter"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/d"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Area Converter"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/area_chart"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Volume Converter"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/hourglass"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Weight and Mass Converter"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/friends"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text=" Time Convertor"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/clock"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/button"
+            android:text="Age Calculator"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:drawableLeft="@drawable/calander"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

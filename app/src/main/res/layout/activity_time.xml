@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.4"
+            android:weightSum="1"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Time Converter"
+                android:textSize="80px"
+                android:textColor="@color/black"
+                android:textStyle="italic|bold"
+                android:textAlignment="center"
+                android:layout_weight="0.2"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clock"
+                android:layout_weight="0.7"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.2"
+            android:weightSum="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.5"
+                android:weightSum="1"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+                    android:hint="     Input     "
+                    android:textSize="60px"
+                    android:textAlignment="center"
+                    android:background="@drawable/default_et"
+                    android:layout_weight="0.4"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/right_arrow"/>
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="    output    "
+                    android:textSize="60px"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:background="@drawable/default_et"
+                    android:layout_weight="0.4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.5"
+                android:weightSum="1"
+                android:layout_margin="5dp">
+
+                <ToggleButton
+                    android:id="@+id/tb1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textOn="H -> M"
+                    android:textOff="M -> S"
+                    android:textColor="@color/black"
+                    android:textSize="50px"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/default_et"/>
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Convert"
+                    android:textColor="@color/black"
+                    android:textSize="60px"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/default_et"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="0.4"
+            android:weightSum="1"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.4"
+                android:weightSum="1"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+                    android:hint="Hours"
+                    android:textSize="60px"
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/default_et"
+                    android:layout_weight="0.5"/>
+
+                <EditText
+                    android:id="@+id/et3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="numberDecimal"
+                    android:hint="Minutes"
+                    android:textSize="60px"
+                    android:layout_marginLeft="20dp"
+                    android:textAlignment="center"
+                    android:background="@drawable/default_et"
+                    android:layout_weight="0.5"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.4"
+                android:weightSum="1"
+                android:layout_margin="5dp">
+
+                <ToggleButton
+                    android:id="@+id/tb2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textOn="Belgium-> PAK"
+                    android:textOff="PAK -> Belgium"
+                    android:textColor="@color/black"
+                    android:textSize="50px"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/default_et"/>
+
+                <ToggleButton
+                    android:id="@+id/tb3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textOn="PM"
+                    android:textOff="AM"
+                    android:textColor="@color/black"
+                    android:textSize="50px"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/default_et"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="0.2"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Output"
+                    android:textColor="@color/black"
+                    android:textSize="60px"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/default_et"/>
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Convert"
+                    android:textColor="@color/black"
+                    android:textSize="60px"
+                    android:layout_weight="0.5"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/default_et"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
